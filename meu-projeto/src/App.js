@@ -4,6 +4,7 @@ import InfoCard from './components/InfoCard';
 import TextInput from './components/TextInput';
 import ClickCounter from './components/ClickCounter';
 import ImageCarousel from './components/ImageCarousel';
+import Form from './components/Form';
 import './App.css'; // Importando o CSS global
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         />
         <TextInput />
         <ClickCounter />
+        <Form />
       </header>
     </div>
   );
